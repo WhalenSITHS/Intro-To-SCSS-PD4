@@ -18,4 +18,26 @@ body {
 }
 .header {
   font-size: 5rem;
+  background-color: red;
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+}
+.header-text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  //transform: translate(-50%, -50%);
+}
+.header-primary {
+  text-align: center;
+}
+.header-primary-main {
+  display: block;
+}
+.header-primary-sub {
+  display: block;
 }
