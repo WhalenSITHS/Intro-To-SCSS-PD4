@@ -5,6 +5,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header {
@@ -36,11 +37,15 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .header-primary-main {
   display: block;
   font-size: 10rem;
+  letter-spacing: 1rem;
+  text-shadow: #333 3px 3px;
 }
 
 .header-primary-sub {
